@@ -58,7 +58,7 @@ body, html {
 }
 .w3-content {
     height: 400px;
-    background-image: url("images/bone.gif");
+    background-image: url("bone.gif");
     background-position: center;
     background-size: cover;
 }
