@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<title>Sophie's Birthday Party!</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Margarine" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<style>
+</style>
+<body>
+
+<!-- Header / Home-->
+ 
+ <div class="grid">
+  <div class="col-1-4">
+      <h1 class="intro">Sophie Is turning 2!</h1>
+  </div>
+  <div class="col-2-4">
+  </div>
+  <div class="col-3-4">
+     <h2 class="intro">Come Party With Us!</h2>
+  </div>
+</div>
+
+
+<!-- Navbar (sticky top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding-8 w3-opacity-min w3-hover-opacity-min">
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
+    <a href="#sophie" style="width:25%" class="w3-bar-item w3-button">About Sophie</a>
+    <a href="#party" style="width:25%" class="w3-bar-item w3-button">The Party</a>
+    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button">RSVP</a>
+  </div>
+</div>
+
+<!-- About Sophie section -->
+<div class="container" id="sophie">
+  <h1>About Sophie</h1>
+    <p>Puppy kitty ipsum dolor sit good dog foot stick canary. Teeth Mittens grooming vaccine walk swimming nest good boy furry tongue heel furry treats fish. Cage run fast kitten dinnertime ball run foot park fleas throw house train licks stick dinnertime window.</p>
+    <p>Yawn litter fish yawn toy pet gate throw Buddy kitty wag tail ball groom crate ferret heel wet nose Rover toys pet supplies. Bird Food treats tongue lick teeth ferret litter box slobbery litter box crate bird small animals yawn small animals shake slobber gimme five toys polydactyl meow.</p>
+</div>
+
+
+<!-- Party information -->
+<div class="container" id="party">
+    <h1 class="partyheader">The Party</h1>
+     <div class="col-1-2">
+        <h2>When</h2>
+        <p>2:00 p.m.<br>Saturday, May 1</p>
+      </div>
+       <div class="col-2-2">
+        <h2>Where</h2>
+        <p> The Dog Park<br>55 Tail Wag Way</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- RSVP section -->
+<div class="container" id="rsvp">
+  <h1 class="partyheader">Hope You Can Make It!</h1>
+  <p class="w3-large">Please RSVP by April 20, 2017</p>
+  <p class="w3-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-purple  w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
+  </p>
+</div>
+
+
+</body>
+</html>
+
