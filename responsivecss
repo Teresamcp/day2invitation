@@ -1,0 +1,144 @@
+
+/*<!-- Header / Home-->
+*/
+[class*='col-'] {
+  float: left;
+}
+
+
+
+.grid  {
+	height: 620px;
+	min-height: 100%;
+    background-image: url("images/partydog.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: -10px;
+  
+}
+
+
+.col-1-4 {
+  width: 25%;
+  float: left;
+  padding-top: 15%;
+  padding-left: 5%;
+}
+
+.col-2-4 {
+  width: 50%;
+  float: center;
+  padding-top: 10%;
+  height: 500px;
+  /*border: 6px solid purple ;*/
+ /*padding: 80px 50px 20px 50px;*/
+  
+}
+
+.col-3-4 {
+  width: 25%;
+  float: right;
+  padding-top: 20%;
+  padding-right: 5%;
+}
+
+h1.intro {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 36px;
+  	font-size: 5.4vw;  /*will need to change this after adding media queries*/
+}
+
+h2.intro {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    font-size: 5vw; /*will need to change this after adding media queries*/
+}
+
+
+
+/*navbar */
+
+
+.w3-container {
+    background-color: #CF8ACB;
+}
+
+.w3-button:hover {
+    color: purple !important;
+}
+
+
+/*about sophie section*/
+#sophie {
+	background-color: #FFCBFE;
+	height: 375px;
+	margin-top: 0px;
+
+}
+
+#sophie h1 {
+	font-family: 'Shadows Into Light', cursive;
+    font-size: 40px;
+    text-align: center !important; 
+    padding-top: 2%;
+}
+
+#sophie p {
+	font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    padding: 0 5% 0 5%;
+}
+
+body,h1 {
+    font-family: 'Shadows Into Light', cursive;
+    color: black;
+    text-align: center;
+
+}
+
+body,h2{
+    font-family: "Raleway", sans-serif;
+    color: black;
+    text-align: center;
+
+}
+
+.partyheader {
+	padding-top: 2%;
+}
+
+.col-1-2 {
+  width: 50%;
+  text-align: center;
+}
+
+.col-2-2 {
+  width: 50%;
+  text-align: center;
+}
+
+#party {
+	height: 575px;  /*need to fix height of bone*/
+	min-height: 100%;
+	background-color: #E4DDDC;
+    background-image: url("images/bone.gif");
+    background-position: center;
+    background-size: cover;
+    margin-top: -10px;
+
+}
+
+
+
+.col-1-2, .col-2-2  {
+	text-align: center;
+	padding-top: 10%;
+
+}
+
+#rsvp {
+	margin-top: -10px;
+	background-color: #FFCBFE;
+	height: 300px;
+}
