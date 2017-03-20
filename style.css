@@ -10,7 +10,7 @@
 .grid  {
 	height: 620px;
 	min-height: 100%;
-    background-image: url("partydog.jpg");
+    background-image: url("images/partydog.jpg");
     background-position: center;
     background-size: cover;
     margin-bottom: -10px;
