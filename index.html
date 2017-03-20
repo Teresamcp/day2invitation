@@ -14,36 +14,45 @@
 <body>
 
 <!-- Header / Home-->
-<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
-  <div class="w3-display-middle w3-text-white w3-center">
-    <div class="boxed">
-    <h1 class="intro">Sophie Is turning 2!</h1>
-    <h2 class="intro"><b>Come Party With Us!</b></h2>
-  </div></div>
-</header>
+ 
+ <div class="grid">
+  <div class="col-1-4">
+      <h1 class="intro">Sophie Is turning 2!</h1>
+  </div>
+  <div class="col-2-4">
+  </div>
+  <div class="col-3-4">
+     <h2 class="intro">Come Party With Us!</h2>
+  </div>
+</div>
+
 
 <!-- Navbar (sticky top) -->
 <div class="w3-top w3-hide-small">
   <div class="w3-bar w3-white w3-center w3-padding-8 w3-opacity-min w3-hover-opacity-min">
     <a href="#home" style="width:25%" class="w3-bar-item w3-button">Home</a>
-    <a href="#sophie" style="width:25%" class="w3-bar-item w3-button">Sophie</a>
+    <a href="#sophie" style="width:25%" class="w3-bar-item w3-button">About Sophie</a>
     <a href="#party" style="width:25%" class="w3-bar-item w3-button">The Party</a>
     <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button">RSVP</a>
   </div>
 </div>
 
+<!-- About Sophie section -->
+<div class="container" id="sophie">
+  <h1>About Sophie</h1>
+    <p>Puppy kitty ipsum dolor sit good dog foot stick canary. Teeth Mittens grooming vaccine walk swimming nest good boy furry tongue heel furry treats fish. Cage run fast kitten dinnertime ball run foot park fleas throw house train licks stick dinnertime window.</p>
+    <p>Yawn litter fish yawn toy pet gate throw Buddy kitty wag tail ball groom crate ferret heel wet nose Rover toys pet supplies. Bird Food treats tongue lick teeth ferret litter box slobbery litter box crate bird small animals yawn small animals shake slobber gimme five toys polydactyl meow.</p>
+</div>
 
 
 <!-- Party information -->
-<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="party">
-  <div class="w3-content">
-    <h1 class="w3-text-party"><b>THE PARTY</b></h1>
-     <div class="w3-row">
-      <div class="w3-half">
+<div class="container" id="party">
+    <h1 class="partyheader">The Party</h1>
+     <div class="col-1-2">
         <h2>When</h2>
         <p>2:00 p.m.<br>Saturday, May 1</p>
       </div>
-      <div class="w3-half">
+       <div class="col-2-2">
         <h2>Where</h2>
         <p> The Dog Park<br>55 Tail Wag Way</p>
       </div>
@@ -51,35 +60,14 @@
   </div>
 </div>
 
+
 <!-- RSVP section -->
-<div class="w3-container w3-padding-64  w3-center w3-wide" id="rsvp">
-  <h1>HOPE YOU CAN MAKE IT!</h1>
+<div class="container" id="rsvp">
+  <h1 class="partyheader">Hope You Can Make It!</h1>
   <p class="w3-large">Please RSVP by April 20, 2017</p>
   <p class="w3-xlarge">
     <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-purple  w3-hover-opacity-off" style="padding:8px 60px">RSVP</button>
   </p>
-</div>
-
-<!-- RSVP modal -->
-<div id="id01" class="w3-modal">
-  <div class="w3-modal-content w3-card-8 w3-animate-zoom w3-padding-jumbo" style="max-width:600px">
-    <div class="w3-container w3-white w3-center">
-      <h1 class="w3-wide">WILL YOU BE?</h1>
-      <p>We really hope you can make it.</p>
-      <form>
-        <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
-      </form>
-      <p><i>Sincerely, Sophie & Her Parents</i></p>
-      <div class="w3-row">
-        <div class="w3-half">
-          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Yes!</button>
-        </div>
-        <div class="w3-half">
-          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">No</button>
-        </div>
-      </div>
-    </div>
-  </div>
 </div>
 
 
